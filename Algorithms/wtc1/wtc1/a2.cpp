@@ -154,6 +154,7 @@ void main()
 	}
 	
 
+
 	cout << "Program is finish£¡" << endl;
 	system("pause");
 }
