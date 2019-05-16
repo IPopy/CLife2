@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wtc1", "wtc1\wtc1.vcxproj", "{D9A1BA14-B71E-4D99-B1EC-E3D73274B26B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "first", "wtc1\wtc1.vcxproj", "{D9A1BA14-B71E-4D99-B1EC-E3D73274B26B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
