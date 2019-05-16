@@ -3,8 +3,8 @@
 
 import pandas as pd
 from pandas import DataFrame
-dataA = pd.read_csv("A.csv", header=None)
-dataB = pd.read_csv("B.csv", header=None)
+dataA = pd.read_csv(r"D:\用户目录\我的文档\WeChat Files\zhangcy_0511\FileStorage\File\2019-05\mpl1\A.csv", header=None)
+dataB = pd.read_csv(r"D:\用户目录\我的文档\WeChat Files\zhangcy_0511\FileStorage\File\2019-05\mpl1\B.csv", header=None)
 
 dropB = []
 
@@ -45,7 +45,7 @@ dataC = dataB.drop(dropB)
 
 dataD = dataA.append(dataC, ignore_index=True)
 dataD = dataD.sort_values(by=[0])
-dataD.to_csv("out.csv", index=False, header=False)
+dataD.to_csv(r"D:\用户目录\我的文档\WeChat Files\zhangcy_0511\FileStorage\File\2019-05\mpl1\out.csv", index=False, header=False)
 print(dataD)
 
 
