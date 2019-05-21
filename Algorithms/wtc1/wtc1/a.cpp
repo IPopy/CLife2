@@ -94,7 +94,7 @@ void rewrite_3(list<string>& a1, list<string>& a2)//a1,a2¶¼ÊÇ¶¯Ì¬Êı×é £¬a1´æa×éµ
 
 void readCSV()
 {
-	string  strFileName = "x_person_map.csv";			//¡¾0¡¿ÎÄ¼şÃû
+	string  strFileName = "D:\\ÓÃ»§Ä¿Â¼\\ÎÒµÄÎÄµµ\\Tencent Files\\136708924\\FileRecv\\bad_transaction_distinct_56724.csv";			//¡¾0¡¿ÎÄ¼şÃû
 	ifstream file;                                      //¡¾1¡¿ÉùÃ÷Ò»¸öÎÄ¼şÊäÈëÊä³öÁ÷¶ÔÏó
 	file.open(strFileName.c_str(), ios::in);            //¡¾2¡¿ÒÔ¶ÁÎÄ¼şµÄ·½Ê½´ò¿ªÎÄ¼ş
 	if (!file.is_open())
@@ -143,7 +143,7 @@ void writeCSV()
 {
 	//Ğ´ÎÄ¼ş
 	ofstream file;
-	file.open("x_person_map_out.csv", ios::out);
+	file.open("D:\\ÓÃ»§Ä¿Â¼\\ÎÒµÄÎÄµµ\\Tencent Files\\136708924\\FileRecv\\bad_man_map_out.csv", ios::out);
 
 	if (!file.is_open())
 	{
@@ -180,6 +180,7 @@ void writeCSV()
 
 void main()
 {
+
 	/////map²âÊÔ´úÂë
 	//map<string, int> mymap;
 	//map<string, int>::key_compare mycomp = mymap.key_comp();
